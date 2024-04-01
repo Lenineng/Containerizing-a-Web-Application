@@ -1,18 +1,19 @@
 Project Title
 
 Containerizing a Web Application.
+
 Table of Contents
 
     Introduction
     Features
     Technologies
     Getting Started
-        Prerequisites
-        Installation
+    Prerequisites
+    Installation
     Running the Application
     Docker
-        Building the Docker Image
-        Running the Docker Container
+    Building the Docker Image
+    Running the Docker Container
 
 Introduction
 
@@ -40,7 +41,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yusufmolumo/Containerizing-a-Web-Application
+git clone https://github.com/lenineng/Containerizing-a-Web-Application
 
 Navigate to the project repository:
 
@@ -61,18 +62,18 @@ Building the Docker Image
 
 To build the Docker image for the application, use the following command:
 
-sudo docker build -t yusufmolumo/containerizing-a-web-application:latest .
+sudo docker build -t lenineng/containerizing-a-web-application:latest .
 
 Running the Docker Container
 
 Once the Docker image is built, you can run a Docker container using the following command:
 
-sudo docker run -d -p 3000:3000 yusufmolumo/containerizing-a-web-application:latest
+sudo docker run -d -p 3000:3000 lenineng/containerizing-a-web-application:latest
 
 Pushing the Docker Container
 
 Once logged in, you can push the tagged Docker image to Docker Hub using the docker push command:
 
-sudo docker push yusufmolumo/containerizing-a-web-application:latest
+sudo docker push lenineng/containerizing-a-web-application:latest
 
 
